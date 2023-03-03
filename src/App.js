@@ -6,6 +6,7 @@ import Projects from './pages/Projects';
 import Experience from './pages/Experience';
 // UI imports
 import Navbar from './UI/Navbar';
+import Footer from './UI/Footer';
 // style import
 import './App.css';
 import './styles/Navbar.css';
@@ -20,6 +21,7 @@ function App() {
         <Route path='/projects' element={<Projects />}/>
         <Route path='/experience' element={<Experience />}/>
       </Routes>
+      <Footer />
     </Router>
     </div>
   );
