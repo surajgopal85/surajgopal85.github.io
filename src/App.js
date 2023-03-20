@@ -1,25 +1,28 @@
-// router imports
+import './App.css';
+// Router imports
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// pages imports
+// page imports
 import Home from './pages/Home';
-import Projects from './pages/Projects';
 import Experience from './pages/Experience';
-// UI imports
+import Projects from './pages/Projects';
+import ProjectDisplay from './pages/ProjectDisplay';
+
 import Navbar from './UI/Navbar';
 import Footer from './UI/Footer';
-// style import
-import './App.css';
-import './styles/Navbar.css';
+
 
 function App() {
   return (
     <div className="App">
+    {/* Router is parent to Routes */}
     <Router>
+      {/* Routes holds multiple routes - diff btwn Router/Routes??? */}
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home />}/>
-        <Route path='/projects' element={<Projects />}/>
-        <Route path='/experience' element={<Experience />}/>
+        <Route path='/' element={<Home />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/project/:id' element={<ProjectDisplay />} />
+        <Route path='/experience' element={<Experience />} />
       </Routes>
       <Footer />
     </Router>

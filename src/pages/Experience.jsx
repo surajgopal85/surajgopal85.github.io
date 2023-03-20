@@ -13,11 +13,11 @@ import WorkIcon from '@material-ui/icons/Work';
 const Experience = () => {
   return (
     <div className="experience">
-      <VerticalTimeline lineColor="#3e497a">
+      <VerticalTimeline lineColor="#B4B4B4">
         <VerticalTimelineElement
         className="vertical-timeline-element--education"
         date='2003-2007'
-        iconStyle={ {background: "#3e497a", color: "#fff"} }
+        iconStyle={ {background: "#D1B093", color: "#fff"} }
         icon={<SchoolIcon />}>
           <h3>Amherst College (Amherst, MA)</h3>
           <p>B.A. Music (Composition)</p>
@@ -26,7 +26,7 @@ const Experience = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2007 - 2008"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          iconStyle={{ background: "#B7C89F", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -41,7 +41,7 @@ const Experience = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2010 - 2011"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          iconStyle={{ background: "#B7C89F", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -59,7 +59,7 @@ const Experience = () => {
         <VerticalTimelineElement
         className="vertical-timeline-element--education"
         date='2011-2013'
-        iconStyle={ {background: "#3e497a", color: "#fff"} }
+        iconStyle={ {background: "#D1B093", color: "#fff"} }
         icon={<SchoolIcon />}>
           <h3>LIU-Brooklyn (Brooklyn, NY)</h3>
           <p>M.S., Special Education</p>
@@ -67,7 +67,7 @@ const Experience = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2011 - 2022"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          iconStyle={{ background: "#B7C89F", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -87,7 +87,7 @@ const Experience = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2019 - 2022"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          iconStyle={{ background: "#B7C89F", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -102,7 +102,7 @@ const Experience = () => {
         <VerticalTimelineElement
         className="vertical-timeline-element--education"
         date='Oct 2022 - Dec 2022'
-        iconStyle={ {background: "#3e497a", color: "#fff"} }
+        iconStyle={ {background: "#D1B093", color: "#fff"} }
         icon={<SchoolIcon />}>
           <h3>Le Wagon (Remote)</h3>
           <p>Certificate of Completion, Full Stack Web Development</p>

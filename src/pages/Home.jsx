@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className='home'>
       <div className="about">
-        <h2>Hi, I'm Suraj!</h2>
+        <h2>Hi, I'm Suraj.</h2>
         <div className="prompt">
         <p>I used to teach high school.
         Now, I'm kicking off my next career adventure as a software engineer.</p>
