@@ -12,7 +12,7 @@ const Footer = () => {
         <LinkedInIcon />
         <GitHubIcon />
       </div>
-      <p> &copy; 2023 surajgopal.tech </p>
+      <p> &copy; 2023 Suraj Gopal </p>
     </div>
   )
 }

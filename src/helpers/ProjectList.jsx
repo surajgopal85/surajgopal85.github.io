@@ -1,5 +1,6 @@
 import Local from '../assets/Local-landing.png';
-import test from '../assets/test.jpeg';
+// import test from '../assets/test.jpeg';
+import coming_soon from '../assets/coming_soon.jpeg'
 
 export const ProjectList = [
   {
@@ -9,7 +10,7 @@ export const ProjectList = [
   },
   {
     name: 'Test',
-    image: test,
+    image: coming_soon,
     skills: 'Ruby on Rails, PostgreSQL, HTML, CSS, Bootstrap, Simple Form, Mapbox API, Flatpicker'
   }
 ]
