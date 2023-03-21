@@ -6,11 +6,13 @@ export const ProjectList = [
   {
     name: 'Local',
     image: Local,
-    skills: 'Ruby on Rails, PostgreSQL, HTML, CSS, Bootstrap, Simple Form, Mapbox API, Flatpicker'
+    skills: 'Ruby on Rails, PostgreSQL, HTML, CSS, Bootstrap, Simple Form, Mapbox API, Flatpicker',
+    link: 'http://www.local-1038.xyz/'
   },
   {
     name: 'Test',
     image: coming_soon,
-    skills: 'Ruby on Rails, PostgreSQL, HTML, CSS, Bootstrap, Simple Form, Mapbox API, Flatpicker'
+    skills: 'Ruby on Rails, PostgreSQL, HTML, CSS, Bootstrap, Simple Form, Mapbox API, Flatpicker',
+    link: 'http://www.google.com/'
   }
 ]
