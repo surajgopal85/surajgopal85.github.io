@@ -19,10 +19,10 @@ function App() {
       {/* Routes holds multiple routes - diff btwn Router/Routes??? */}
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/projects' element={<Projects />} />
-        <Route path='/project/:id' element={<ProjectDisplay />} />
-        <Route path='/experience' element={<Experience />} />
+        <Route path='/dev-portfolio/' element={<Home />} />
+        <Route path='/dev-portfolio/projects' element={<Projects />} />
+        <Route path='/dev-portfolio/project/:id' element={<ProjectDisplay />} />
+        <Route path='/dev-portfolio/experience' element={<Experience />} />
       </Routes>
       <Footer />
     </Router>
