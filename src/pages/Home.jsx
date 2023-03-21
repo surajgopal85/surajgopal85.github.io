@@ -13,9 +13,17 @@ const Home = () => {
         <div className="prompt">
         <p>I used to teach high school.
         Now, I'm kicking off my next career adventure as a software engineer.</p>
-        <LinkedInIcon />
-        <EmailIcon />
-        <GitHubIcon />
+        <div className="socials row">
+          <div className="socialLI col">
+          <a href='https://www.linkedin.com/in/suraj-s-gopal/' target="_blank" rel="noreferrer"><LinkedInIcon /></a>
+          </div>
+          <div className="socialMail col">
+          <a href='https://www.google.com/' target="_blank" rel="noreferrer"><EmailIcon /></a>
+          </div>
+          <div className="socialGH col">
+          <a href='https://github.com/surajgopal85' target="_blank" rel="noreferrer"><GitHubIcon /></a>
+          </div>
+        </div>
         </div>
       </div>
       <div className="skills">

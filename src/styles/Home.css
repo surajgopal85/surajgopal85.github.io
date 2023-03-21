@@ -35,6 +35,12 @@
   color: white;
 }
 
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .skills {
   font-size: 35px;
   width: 100%;
