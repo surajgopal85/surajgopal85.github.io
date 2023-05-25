@@ -1,7 +1,5 @@
 import Local from '../assets/Local-landing.png';
-// import test from '../assets/test.jpeg';
-import coming_soon from '../assets/coming_soon.jpeg'
-import spring_boot_library from '../assets/spring_boot_library.png'
+import spring_boot_library from '../assets/spring_boot_library.png';
 
 export const ProjectList = [
   {
