@@ -13,7 +13,7 @@ export const ProjectList = [
     name: 'Spring Boot Library',
     image: spring_boot_library,
     skills: 'React, Typescript, Spring Boot, Spring MVC, MySQL,  HTML, CSS, Bootstrap',
-    link: 'http://www.google.com/',
+    link: 'https://github.com/surajgopal85/library-app',
     description: 'Spring Boot Backend with MySQL scripts uploading books for Database. Front end with React and Typescript.'
   }
 ]

@@ -7,7 +7,7 @@
 
 .about {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,12 +27,16 @@
 
 .about .prompt {
   width: 40%;
-  font-size: 30px;
+  font-size: 25px;
 }
 .prompt svg {
   font-size: 60px;
   margin: 5px;
   color: white;
+}
+
+.socials {
+  height: 20px;
 }
 
 .row {
