@@ -1,7 +1,9 @@
+
+
 .home {
   width: 100%;
   align-items: center;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #3e497a;
 }
 
@@ -13,12 +15,15 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #C1B8B1;
+  /* background-color: #C1B8B1; */
   color: #f0f0f0;
+  background-image: url('../assets/coding.jpg');
+  opacity: 0.7;
+  color: white;
 }
 
 .about h2 {
-  font-family: "Merriweather", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 50px;
   color: white;

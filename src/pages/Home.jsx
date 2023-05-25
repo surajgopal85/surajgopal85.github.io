@@ -10,7 +10,7 @@ import coding from '../assets/coding.jpg';
 const Home = () => {
   return (
     <div className='home'>
-      <div className="about" style={{ backgroundImage:`url(${coding})` }}>
+      <div className="about">
         <h2>Hi, I'm Suraj.</h2>
           <div className="prompt">
             <p><strong>A fullstack software engineer building<br></br>backend architecture and frontend UIs.</strong></p>
