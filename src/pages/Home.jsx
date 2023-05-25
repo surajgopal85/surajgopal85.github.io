@@ -1,29 +1,19 @@
 import React from 'react';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import EmailIcon from '@material-ui/icons/Email';
+// import LinkedInIcon from '@material-ui/icons/LinkedIn';
+// import GitHubIcon from '@material-ui/icons/GitHub';
+// import EmailIcon from '@material-ui/icons/Email';
 import Heros from '../UI/Heros';
 
 import '../styles/Home.css';
+import coding from '../assets/coding.jpg';
 
 const Home = () => {
   return (
     <div className='home'>
-      <div className="about">
+      <div className="about" style={{ backgroundImage:`url(${coding})` }}>
         <h2>Hi, I'm Suraj.</h2>
           <div className="prompt">
-            <p>A fullstack software engineer with experience developing backend architecture and frontend UIs.</p>
-            {/* <div className="socials row"> */}
-              {/* <div className="socialLI col">
-              <a href='https://www.linkedin.com/in/suraj-s-gopal/' target="_blank" rel="noreferrer"><LinkedInIcon /></a>
-              </div> */}
-                {/* <div className="socialMail col">
-                <a href='https://www.google.com/' target="_blank" rel="noreferrer"><EmailIcon /></a>
-                </div> */}
-              {/* <div className="socialGH col">
-                <a href='https://github.com/surajgopal85' target="_blank" rel="noreferrer"><GitHubIcon /></a>
-              </div> */}
-          {/* </div> */}
+            <p><strong>A fullstack software engineer building<br></br>backend architecture and frontend UIs.</strong></p>
         </div>
       </div>
       <Heros />
@@ -47,5 +37,16 @@ const Home = () => {
     </div>
   )
 }
+{/* <div className="socials row"> */}
+              {/* <div className="socialLI col">
+              <a href='https://www.linkedin.com/in/suraj-s-gopal/' target="_blank" rel="noreferrer"><LinkedInIcon /></a>
+              </div> */}
+                {/* <div className="socialMail col">
+                <a href='https://www.google.com/' target="_blank" rel="noreferrer"><EmailIcon /></a>
+                </div> */}
+              {/* <div className="socialGH col">
+                <a href='https://github.com/surajgopal85' target="_blank" rel="noreferrer"><GitHubIcon /></a>
+              </div> */}
+          {/* </div> */}
 
 export default Home;
