@@ -9,7 +9,7 @@ const ProjectDisplay = () => {
   const project = ProjectList[id];
 
   return (
-    <div className="project">
+    <div className="container project">
       <div className="mt-5 mb-5">
         <h1>{project.name}</h1>
       </div>
