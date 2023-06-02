@@ -1,7 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
-import GitHubIcon from "@material-ui/icons/GitHub";
 import "../styles/ProjectDisplay.css";
 
 const ProjectDisplay = () => {
@@ -27,9 +26,6 @@ const ProjectDisplay = () => {
         </p>
       </div>
       <a href={project.link} target="_blank" rel="noreferrer">Site/Repository</a>
-      <div className="mt-5 mb-5">
-      <GitHubIcon />
-      </div>
     </div>
   );
 };
