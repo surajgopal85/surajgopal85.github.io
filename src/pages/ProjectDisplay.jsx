@@ -9,10 +9,8 @@ const ProjectDisplay = () => {
 
   return (
     <div className="container project">
-      <div className="mt-5">
-        <h1>{project.name}</h1>
-      </div>
       <div className="mt-5 mb-5">
+        <h1>{project.name}</h1>
         <img src={project.image} alt=''/>
       </div>
       <div className="mt-5 mb-5">
