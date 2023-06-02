@@ -22,6 +22,6 @@ export const ProjectList = [
     image: expense_tracker,
     skills: 'React, StyledComponents, HTML, CSS',
     link: 'https://github.com/surajgopal85/react_fundamentals',
-    description: 'SPA utilizing React UseState to update expenses by category/date with a bar graph visualization.'
+    description: 'SPA utilizing React UseState to update expenses by category & date with a bar graph visualization.'
   }
 ]
