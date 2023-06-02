@@ -8,7 +8,7 @@ const ProjectDisplay = () => {
   const project = ProjectList[id];
 
   return (
-    <div className="container project">
+    <div className="container project mt-3">
       <div className="mt-5 mb-5">
         <h1>{project.name}</h1>
         <img src={project.image} alt=''/>
