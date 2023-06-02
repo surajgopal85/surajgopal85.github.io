@@ -9,7 +9,7 @@ const ProjectDisplay = () => {
 
   return (
     <div className="container project">
-      <div className="mt-5 mb-5">
+      <div className="mt-5">
         <h1>{project.name}</h1>
       </div>
       <div className="mt-5 mb-5">
@@ -24,8 +24,9 @@ const ProjectDisplay = () => {
         <p>
           Description: <b>{project.description}</b>
         </p>
+        <h6><a href={project.link} target="_blank" rel="noreferrer">Site/Repository</a></h6>
       </div>
-      <a href={project.link} target="_blank" rel="noreferrer">Site/Repository</a>
+
     </div>
   );
 };

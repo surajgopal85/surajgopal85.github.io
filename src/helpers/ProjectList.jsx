@@ -8,7 +8,7 @@ export const ProjectList = [
     image: Local,
     skills: 'Ruby on Rails, PostgreSQL, HTML, CSS, Bootstrap, Simple Form, Mapbox API, Flatpicker',
     link: 'http://www.local-1038.xyz/',
-    description: 'A travel app where users get suggestions for trip experiences filtered by their preferences & located in the city of their choice.'
+    description: 'A travel app giving users suggestions for trip experiences filtered by their preferences & located in the city of their choice.'
   },
   {
     name: 'Spring Boot Library',
