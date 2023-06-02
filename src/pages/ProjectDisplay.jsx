@@ -27,8 +27,9 @@ const ProjectDisplay = () => {
         </p>
       </div>
       <a href={project.link} target="_blank" rel="noreferrer">Site/Repository</a>
-      <br></br>
+      <div className="mt-5 mb-5">
       <GitHubIcon />
+      </div>
     </div>
   );
 };
